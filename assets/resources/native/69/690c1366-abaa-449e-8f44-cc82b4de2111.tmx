@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.0" orientation="orthogonal" renderorder="right-down" width="40" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="1">
+ <tileset firstgid="1" name="tiles" tilewidth="16" tileheight="16" tilecount="100" columns="10">
+  <image source="../../../images/tiles.png" width="160" height="160"/>
+ </tileset>
+ <layer id="1" name="background" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztw0ENAAAMA6Grf9NzsRckrJqqqurDA5vdAyE=
+  </data>
+ </layer>
+ <layer id="2" name="start" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7BJwb9KLOwjJK2CJgAA8NtcB6gtQgAAIQ==
+  </data>
+ </layer>
+ <layer id="3" name="danger" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztluEKgDAIhP3f3v95+5NgQ23i6Yg6GIxFdx9rM4meNa5xgAb7ocRsCE+k1+zJ84wPUS2fzIl6sKr5svr57s+89zR175+W5eXv+L7DmGvadf5W6+5X+eS/yTpz3vrsg+SL3JGVu4Hk40xEDUTvHcvii9a/br6ouvgiGZW9gcx4w/5l+79KPkSPH60tJ7L2BsE=
+  </data>
+ </layer>
+ <layer id="4" name="ground" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjDQgCsXUUjdSACVhMRqOqIDY9DcKhjbAFoej8UoYjOYP8sBomAwdAAA+rgES
+  </data>
+ </layer>
+ <layer id="5" name="end" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAMAiBTrH/UxfAQEpAAAMCeawdGPSzQABc=
+  </data>
+ </layer>
+</map>

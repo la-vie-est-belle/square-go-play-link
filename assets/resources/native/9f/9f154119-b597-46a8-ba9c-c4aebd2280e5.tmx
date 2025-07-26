@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.0" orientation="orthogonal" renderorder="right-down" width="40" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="12" nextobjectid="1">
+ <tileset firstgid="1" name="tiles" tilewidth="16" tileheight="16" tilecount="100" columns="10">
+  <image source="../../../images/tiles.png" width="160" height="160"/>
+ </tileset>
+ <layer id="1" name="background" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztw0ENAAAMA6Grf9NzsRckrJqqqurDA5vdAyE=
+  </data>
+ </layer>
+ <layer id="2" name="start" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7BJwb9KJOwkIa2CJgAAwBdzHSgWIIAAIQ==
+  </data>
+ </layer>
+ <layer id="3" name="danger" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztk0sKACAIRD3j3P8w0S4k+2rOorcpKMaHlsjnkwOyBSZ4+0GtHlle6Lyb/Ii5MvtZeSd1mP9ElJtH/yL71sterYeNuzfA2Ft3M94ZxK49OnuF7iGDU+vCCJsXy8wq+g1lObF49Chv2xD7
+  </data>
+ </layer>
+ <layer id="4" name="ground" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7CZwL9VJOwkIa2CJgAAwBdzHSgWGaAAFg==
+  </data>
+ </layer>
+ <layer id="5" name="end" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7CpwL9U/hkgIa2CJnw11wEAACgL9pgAFw==
+  </data>
+ </layer>
+ <layer id="6" name="bounce" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwUgCWgPtgFEwpMFo+hm6YLDEHQA/rwB/
+  </data>
+ </layer>
+ <layer id="7" name="dash" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzkERAAAIA6AVs38tU+z0AQlI+GSuAwAAULSnzgA+
+  </data>
+ </layer>
+ <layer id="8" name="port" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20LL6AAAAA+BgyAAAE=
+  </data>
+ </layer>
+ <layer id="9" name="move_lr" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7BpxL8YROwgJK2CJgB8MtcBACgsOK4AUw==
+  </data>
+ </layer>
+ <layer id="10" name="move_ud" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7BpxL8YFOwmIa2CJnwz1wEAACgWd8UAUw==
+  </data>
+ </layer>
+ <layer id="11" name="shoot" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBi8IGigHTAKRhQYTW+jYLiD0TQ+CkbBKBgFo2AwAAD9SAD3
+  </data>
+ </layer>
+</map>

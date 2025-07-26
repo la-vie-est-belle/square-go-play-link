@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.0" orientation="orthogonal" renderorder="right-down" width="40" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="1">
+ <tileset firstgid="1" name="tiles" tilewidth="16" tileheight="16" tilecount="100" columns="10">
+  <image source="../../../images/tiles.png" width="160" height="160"/>
+ </tileset>
+ <layer id="1" name="background" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztw0ENAAAMA6Grf9NzsRckrJqqqurDA5vdAyE=
+  </data>
+ </layer>
+ <layer id="2" name="start" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7BJwb9KNOwiJK2CJgAAQGuuA08tM4AAIQ==
+  </data>
+ </layer>
+ <layer id="3" name="danger" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztljEOACAIxPiT/v9tTq6Gq5FApMmNSBeQaWYTxgt9f2eAqH60x65VoH6kR/u136lWmcFIPxLql5X2u6OK36v5uKHSflGJ3s8qVf4PLz/5ZbxPM9/3CyR9M40=
+  </data>
+ </layer>
+ <layer id="4" name="ground" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMFiB6EA7AAsQxcEeLGAouY+WdiDj4QoGu98Gu/tGAeVguOcxWgEAQFMBJw==
+  </data>
+ </layer>
+ <layer id="5" name="end" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAMAiBTrH/UtdAHEpBAz60DAABMPengABc=
+  </data>
+ </layer>
+ <layer id="6" name="bounce" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzjEJAAAIADDz2D+gBTwFBbcEiwD4K7cDjYsnAJhSaQYAVQ==
+  </data>
+ </layer>
+ <layer id="7" name="dash" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzzEBAAAIw7AZw78tXhTAQaKgTQCY6jrg0Od3AHY0WDEAew==
+  </data>
+ </layer>
+</map>
